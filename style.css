@@ -1,0 +1,99 @@
+/*
+Theme Name: Allie Roll Assignment 2
+Theme URI:
+Author: Allie Roll
+Description: Custom theme for Web Interactivity Class
+Version: 0.1
+License: Open
+Text Domain: webinteractivity
+*/
+
+@import url("stylesheets/normalize.css");
+@import url("stylesheets/skeleton.css");
+
+body {
+  background: #f2f2f2;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+}
+.container-header {
+  background-image: url("header.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  height: 285px;
+}
+
+h1 {
+  text-align: center;
+  color:blue;
+  font-family: 'Crimson Text', serif;
+  padding-top: 5px;
+  margin: 0;
+}
+
+.header-h2 a {
+  text-align: center;
+  text-decoration: none;
+  color: orange;
+  border-color: orange;
+  font-family: 'Crimson Text', serif;
+  margin-bottom: 0;
+}
+
+.column,
+.columns {
+  margin-left: 0%;
+}
+
+.one-half.column.posts {
+  padding:15px;
+}
+.orange {
+  color: #FA9128;
+}
+
+.one-half.column.posts {
+  padding:15px;
+}
+.one-half.column.posts img {
+  max-width: 100%;
+  height: auto;
+}
+h2 a {
+  text-decoration: none;
+  color: blue;
+}
+
+.post-title {
+  margin-bottom: 0;
+  padding-top:10px;
+  color: blue;
+}
+
+.post-date {
+  margin-left: 10px;
+  color: #FA9128;
+}
+.post-img {
+  float:left;
+  margin-right: 40px;
+  border: 1px solid;
+}
+
+.post-feature img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.footer-text {
+  padding: 10px;
+  text-align: center;
+  color: #908F8F;
+}
