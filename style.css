@@ -45,6 +45,9 @@ h1 {
   font-family: 'Crimson Text', serif;
   margin-bottom: 0;
 }
+.about-us-image {
+  padding-top: 90px;
+}
 
 .column,
 .columns {
@@ -90,10 +93,4 @@ h2 a {
   max-width: 100%;
   height: auto;
   margin-bottom: 50px;
-}
-
-.footer-text {
-  padding: 10px;
-  text-align: center;
-  color: #908F8F;
 }
