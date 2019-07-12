@@ -20,31 +20,16 @@ body {
   background: white;
   padding: 20px;
 }
-.container-header {
-  background-image: url("header.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: 0 auto;
-  height: 285px;
-}
 
 h1 {
   text-align: center;
+  text-decoration: none;
   color:blue;
   font-family: 'Crimson Text', serif;
   padding-top: 5px;
   margin: 0;
 }
 
-.header-h2 a {
-  text-align: center;
-  text-decoration: none;
-  color: orange;
-  border-color: orange;
-  font-family: 'Crimson Text', serif;
-  margin-bottom: 0;
-}
 .about-us-image {
   padding-top: 90px;
 }

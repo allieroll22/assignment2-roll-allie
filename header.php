@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width-device-width, intial-scale-1.0">
+
     <title><?php bloginfo('name'); ?></title>
 
     <?php wp_head(); ?>
@@ -15,12 +15,10 @@
   <body>
 
     <header>
-      <a href="<?php echo bloginfo('url'); ?>"><?php echo bloginfo('name'); ?></a>
-      <div class="container">
       <div class= "container-header">
-        <button class="header-h2"><a href="index.php">Homepage</a></button>
+        <h1><a href="<?php echo home_url('/');?>"><?php bloginfo('name'); ?></a></h1>
+      
         <h1>The University of Florida </h1>
 
       </div>
-    </div>
     </header>
