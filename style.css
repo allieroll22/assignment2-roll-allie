@@ -57,9 +57,7 @@ h1 {
 .one-half.column.posts {
   padding:15px;
 }
-.orange {
-  color: #FA9128;
-}
+
 
 .one-half.column.posts {
   padding:15px;
@@ -68,9 +66,38 @@ h1 {
   max-width: 100%;
   height: auto;
 }
-h2 a {
+h3 {
+  margin: 0 auto;
+}
+h3 a {
   text-decoration: none;
   color: blue;
+  font-size: 18px;
+}
+
+.h2-title {
+  margin-left: 30px;
+  margin-bottom: 0;
+}
+.one-third.column.posts {
+  display: inline-grid;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0%;
+
+}
+
+/* 404 Page */
+.twelve.columns.not-found {
+  padding: 30px 20px 50px;
+}
+
+.p-home {
+  margin: 5px;
+}
+
+img.attachment-thumbnail.size-thumbnail.wp-post-image {
+  margin: 0 auto;
 }
 
 .post-title {
