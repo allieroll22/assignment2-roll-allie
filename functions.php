@@ -2,10 +2,20 @@
 //Adds featured images to posts
   add_theme_support('post-thumbnails');
 
+//Add custom menus
+function custom_menus(){
+  register_nav_menus( array(
+    'header-menu' =>  ('Header Menu'),
+    'footer-menu' =>  ('Footer Menu')
+  ));
+
+}
+
+add_action('init','custom_menus');
 //Adds widget areas
 function blank_widgets_init(){
 
-  //Header
+  //Header Widget
   register_sidebar( array(
     'name'          =>  ('Hero Image'),
     'id'            =>  'hero-image',
@@ -45,6 +55,17 @@ function blank_widgets_init(){
     'id'            =>  'about-us-image',
     'description'   =>  'Widget area for About Us image section',
     'before_widget' =>  '<div class="about-us-image">',
+    'after_widget'  =>  '</div>',
+    'before_title'  =>  '<h3 class="widget-title">',
+    'after_title'   =>  '</h3>'
+  ));
+
+  //Sidebar Widget
+  register_sidebar( array(
+    'name'          =>  ('Sidebar'),
+    'id'            =>  'sidebar',
+    'description'   =>  'Sidebar widget area',
+    'before_widget' =>  '<div class="widget-sidebar">',
     'after_widget'  =>  '</div>',
     'before_title'  =>  '<h3 class="widget-title">',
     'after_title'   =>  '</h3>'

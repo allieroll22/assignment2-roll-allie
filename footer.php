@@ -1,9 +1,12 @@
-
-
+<footer>
   <div class="container">
     <div class="row">
       <div class="one-third column">
-        <?php dynamic_sidebar('left-footer'); ?>
+        <?php wp_nav_menu(array(
+          'theme-location' => 'footer-menu',
+          'container-class'=> 'menu-footer'
+        ));
+        ?>
       </div>
 
       <div class="one-third column">
@@ -19,6 +22,7 @@
 
 
   </div>
-  <?php wp_footer(); ?>
-  </body>
+</footer>
+<?php wp_footer(); ?>
+</body>
 </html>
